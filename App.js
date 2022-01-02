@@ -22,7 +22,6 @@ export default function App() {
       ...courseGoals,
       { id: Math.random().toString(), value: goalTitle },
     ]);
-    // setCourseGoals([...courseGoals, enteredText]);
     setIsAddMode(false);
   };
 
